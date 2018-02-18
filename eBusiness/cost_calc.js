@@ -1,29 +1,51 @@
 /* global $ */
 
-function calcsub(){
-    
-    var argsubtotal;
-    
-    if(document.getelementbyId('salesforce').checked){
-        argsubtotal = 100;
+
+
+function calcSub(){
+
+    var argSubTotal;
+
+    if(document.getElementById('salesforce').checked) {
+
+      argSubTotal = 100;
     }
     else {
-        argsubtotal = 300;
+      argSubTotal = 300;
     }
-    display(argsubtotal);
+    
+    display(argSubTotal);
+
 }
+
 function display(parm1){
-    
-    document.getelementbyId("subtotal").value = parm1;
-    document.getelementbyId("total").value = parm1;
-    
-    enablebtnProceed();
+
+  
+
+  document.getElementById("subtotal").value = parm1;
+
+  document.getElementById("total").value = parm1;
+
+        
+
+  enablebtnProceed();
+
 }
+
+
+
+
+
 function enablebtnProceed(){
-    $('btnProceed').prop('disabled', true);
-    
+
+    $('#btnProceed').prop('disabled', false);
+
 }
-function disablebtnProceed(){
-    $('btnProceed').prop('disabled', false);
-    
+
+
+
+function disablebtnProceed() {
+
+    $('#btnProceed').prop('disabled', true);
+
 }
