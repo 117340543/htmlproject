@@ -11,3 +11,17 @@
     text-align: center;
     color: white;
 }
+
+#section4{
+    background-color: rgb(260, 15, 140);
+}
+#section5{
+    background-color: rgb(100, 90, 10);
+}
+#section6{
+    background-color: rgb(61, 140, 100);
+}
+.section{
+    text-align: center;
+    color: white;
+}

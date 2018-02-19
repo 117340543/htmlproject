@@ -46,4 +46,14 @@ text-align:center;
 text-shadow:2.5px 2.5px 4px silver;
 }
 
+.content {
+  width: 600px;
+  height: 300px;
+  position:relative;
+  background-color:white;
+}
+
+
+
+
 
