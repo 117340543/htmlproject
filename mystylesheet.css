@@ -34,8 +34,14 @@ h1 {
     color: #ffccff;
 }
 
-
-
-
+.cv {
+  text-align:center;
+  color:white;
+}
+.mainheading {
+    font-size: 35px;
+    text-align:center;
+    color: white;
+}
 
 
