@@ -2,12 +2,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'verdana';
-    background-image: url("https://media.giphy.com/media/A06UFEx8jxEwU/giphy.gif");
+    background-image: url("http://iseeshadesofgray.files.wordpress.com/2012/04/rainbow_colors__wallpaper_46fj.jpg");
 }
 
 
 .navigation{
-background-color: #ffccff;
+background-color: #6495ED;
 color:#ffffff;
 list-style:none;
 text-align:center;
@@ -36,24 +36,37 @@ h1 {
 
 .cv {
   text-align:center;
-  color:white;
+  color:black;
   font-size:22px;
 }
 .mainheading {
-    font-size: 50px;
-color:white;
+    font-size: 60px;
+color:#0;
 text-align:center;
-text-shadow:2.5px 2.5px 4px silver;
+text-shadow:2.5px 2.5px 4px blue;
 }
 
 .content {
-  width: 600px;
-  height: 300px;
-  position:relative;
+  width:20%;
+  height: 60%;
+ 
   background-color:white;
+  text-align:center;
+  padding: 30px;
+  color:green;
 }
 
-
-
+div#second{
+    background-color:white;
+    margin 0px auto;
+    width:60%;
+    text-align: center;
+}
+div#main{
+    background-color: orange;
+    margin 20px auto;
+    width:80%;
+    
+}
 
 
