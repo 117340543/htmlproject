@@ -13,10 +13,11 @@
 }
 
 #section4{
-    background-color: rgb(260, 15, 140);
+background-image: url("https://cdn-images-1.medium.com/max/1520/1*Jj-Xzp0sIkUg23HOqzZF4w.png");
+color: black;
 }
 #section5{
-    background-color: rgb(12, 90, 10);
+    background-image: url("https://media.wired.com/photos/59323f1758b0d64bb35d0714/master/pass/gmail-inline.jpg");
 }
 #section6{
     background-color: rgb(61, 140, 100);
