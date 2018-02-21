@@ -10,20 +10,20 @@ function calcSub(){
 
       argSubTotal = 100;
     }
-    else if (document.getElementById('gmail').checked {
+    else if (document.getElementById('gmail').checked) {
       argSubTotal = 400;
     }
-    else if (document.getElementById('cloud9').checked {
-    argsubtotal = 200;
+    else if (document.getElementById('cloud9').checked) {
+    argSubTotal = 200;
     }
     else {
-      argsubtotal = 300
+      argSubTotal = 300
     }
     
     
     display(argSubTotal);
 
-}
+
 
 function display(parm1){
 

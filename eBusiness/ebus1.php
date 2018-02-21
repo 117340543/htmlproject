@@ -42,7 +42,7 @@
               <br/>
               <label for="total">
                 Total
-                <input type="hidden" id="total" name="total" value="0.00" readonly/>
+                <input type="text" id="total" name="total" value="0.00" readonly/>
               </label>          
               <br/>
               
