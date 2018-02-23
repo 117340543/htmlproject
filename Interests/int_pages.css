@@ -48,9 +48,20 @@ background-repeat: no-repeat;
 font-size:20px;
 color: black;
 background-size: cover;
+position: absolute;
+z-index:1;
 }
 
 .section{
     text-align: center;
     color: white;
+}
+
+.dark{
+    position:absolute;
+    z-index:2;
+    background:green;
+    border-radius:15%;
+    color:white;
+    padding:2%;
 }

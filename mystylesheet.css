@@ -57,7 +57,7 @@ text-align:center;
   color:green;
 }
 #second{
-    background-color:white;
+    background-color:#cceeff;
     margin-left:auto;
     margin-right:auto;
     padding: 80px;
@@ -98,7 +98,7 @@ border-bottom-left-radius: 100px 100px;
     background-color:white;
     margin-left:auto;
     margin-right:auto;
-    padding: 20px;
+    padding: 10px;
     width: 40%;
  border-top-left-radius: 100px 100px;
 border-bottom-right-radius: 100px 100px;
@@ -142,4 +142,17 @@ border-top-right-radius: 100px 100px;
 border-bottom-left-radius: 100px 100px;
 text-align: center;
 }
-
+.green{
+    background:green;
+    padding: 2%;
+    position: absolute;
+    top: 31%;
+    left: 73%;
+    color: black;
+     border-top-left-radius: 100px 100px;
+border-bottom-right-radius: 100px 100px;
+border-top-right-radius: 100px 100px;
+border-bottom-left-radius: 100px 100px;
+    
+    
+}
