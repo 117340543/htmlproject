@@ -110,11 +110,12 @@ border-bottom-left-radius: 100px 100px;
     margin-left:50%;
     margin-right:auto;
     padding: 40px;
-    width: 40%;
+    width: 40  
  border-top-left-radius: 100px 100px;
 border-bottom-right-radius: 100px 100px;
 border-top-right-radius: 100px 100px;
 border-bottom-left-radius: 100px 100px;
+text-align: center;
 }
 #cloudright{
  background-color:#cceeff;
@@ -126,6 +127,7 @@ border-bottom-left-radius: 100px 100px;
 border-bottom-right-radius: 100px 100px;
 border-top-right-radius: 100px 100px;
 border-bottom-left-radius: 100px 100px;
+text-align: center;
 }
 #buttons{
      background-color:white;

@@ -33,7 +33,7 @@ function enablebtnProceed(){
     $('#btnProceed').prop('disabled', false);
 }
 
-function disablebtnProceed() {
+function disablebtnProceed() 
     $('#btnProceed').prop('disabled', true);
 }
 
