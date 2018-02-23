@@ -13,14 +13,28 @@
 }
 
 #section4{
-background-image: url("https://cdn-images-1.medium.com/max/1520/1*Jj-Xzp0sIkUg23HOqzZF4w.png");
+background-image: url("http://www.nastel.com/images/cloud.jpg");
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background size: cover;
 color: black;
 }
 #section5{
-    background-image: url("https://media.wired.com/photos/59323f1758b0d64bb35d0714/master/pass/gmail-inline.jpg");
+    background-image: url("http://www.peak10.com/wp-content/uploads/2014/05/photo-server-refresh-or-cloud-services-its-better-in-the-cloud.jpg");
+    height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background size: cover;
+color: black;
 }
 #section6{
-    background-color: rgb(61, 140, 100);
+    background-image: url("http://www.cloudcomputingtechnologies.com/wp-content/uploads/2014/03/cloud-it-services.jpg");
+    height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background size: cover;
+color: black;
 }
 .section{
     text-align: center;

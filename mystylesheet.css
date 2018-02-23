@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'verdana';
-    background-image: url("http://iseeshadesofgray.files.wordpress.com/2012/04/rainbow_colors__wallpaper_46fj.jpg");
+    background-image: url("data:image/jpeg;base64,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")
 }
 
 
@@ -41,7 +41,7 @@ h1 {
 }
 .mainheading {
     font-size: 60px;
-color:#0;
+color:#0000;
 text-align:center;
 text-shadow:2.5px 2.5px 4px blue;
 }
@@ -60,19 +60,82 @@ text-shadow:2.5px 2.5px 4px blue;
     margin-left:auto;
     margin-right:auto;
     padding: 80px;
-    width:800px;
-    
+    width: 50%;
+ border-top-left-radius: 100px 100px;
+border-bottom-right-radius: 100px 100px;
+border-top-right-radius: 100px 100px;
+border-bottom-left-radius: 100px 100px;
     
 }
 
 #first{
-      background-color:#3399ff;
+      background-color: silver;
     margin-left:auto;
     margin-right:auto;
     padding: 10px
+    width: 80%;
+     border-top-left-radius: 100px 100px;
+border-bottom-right-radius: 100px 100px;
+border-top-right-radius: 100px 100px;
+border-bottom-left-radius: 100px 100px;
     
    
     
 }
+#footer{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    Color: red;
+    bottom:0;
+    line-height:60px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/106/564/non_2x/vector-seamless-geometric-blue-pattern.jpg");
+}
 
-
+#cloud{
+   
+    background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px;
+    width: 40%;
+ border-top-left-radius: 100px 100px;
+border-bottom-right-radius: 100px 100px;
+border-top-right-radius: 100px 100px;
+border-bottom-left-radius: 100px 100px;
+    text-align:center;
+}
+#cloudleft{
+    background-color:#cce6ff;
+    margin-left:50%;
+    margin-right:auto;
+    padding: 40px;
+    width: 40%;
+ border-top-left-radius: 100px 100px;
+border-bottom-right-radius: 100px 100px;
+border-top-right-radius: 100px 100px;
+border-bottom-left-radius: 100px 100px;
+}
+#cloudright{
+ background-color:#cceeff;
+    margin-left:auto;
+    margin-right:50%;
+    padding: 40px;
+    width: 40%;
+ border-top-left-radius: 100px 100px;
+border-bottom-right-radius: 100px 100px;
+border-top-right-radius: 100px 100px;
+border-bottom-left-radius: 100px 100px;
+}
+#buttons{
+     background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 5px;
+    width: 5%;
+ border-top-left-radius: 100px 100px;
+border-bottom-right-radius: 100px 100px;
+border-top-right-radius: 100px 100px;
+border-bottom-left-radius: 100px 100px;
+text-align: center;
+}
