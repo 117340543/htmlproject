@@ -42,7 +42,7 @@ h1 {
 }
 .mainheading {
     font-size: 60px;
-color:#0066cc;
+color:#00000;
 text-align:center;
 
 }
@@ -70,7 +70,7 @@ border-bottom-left-radius: 100px 100px;
 }
 
 #first{
-      background-color: silver;
+      background-color: #b3ffb3;
     margin-left:auto;
     margin-right:auto;
     padding: 10px
@@ -95,11 +95,12 @@ border-bottom-left-radius: 100px 100px;
 
 #cloud{
    
-    background-color:white;
-    margin-left:auto;
+    background-color:#b3ffb3;
+    font-size: 30px;
+        margin-left:auto;
     margin-right:auto;
-    padding: 10px;
-    width: 40%;
+    padding: 2px;
+    width: 25%;
  border-top-left-radius: 100px 100px;
 border-bottom-right-radius: 100px 100px;
 border-top-right-radius: 100px 100px;
@@ -146,7 +147,7 @@ text-align: center;
     background:green;
     padding: 2%;
     position: absolute;
-    top: 31%;
+    top: 30%;
     left: 73%;
     color: black;
      border-top-left-radius: 100px 100px;
