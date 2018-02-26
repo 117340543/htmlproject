@@ -78,8 +78,8 @@ z-index:1;
     color: black;
    
     padding:2%;
-    top: 55%;
-    left: 50%;
+    top: 50%;
+    left: 45%;
 }
 
 #sectionItaly{
@@ -114,3 +114,4 @@ color: black;
 background-size: cover;
 position: absolute;
 z-index:1;
+}
