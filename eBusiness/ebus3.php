@@ -3,7 +3,7 @@ session_start();
 ?>
 <html>
     <head>
-        <title>RECEIPT</title>#
+        <title>RECEIPT</title>
          <link rel ="stylesheet" href="../mystylesheet.css" type="text/css">
     </head>
     <body>

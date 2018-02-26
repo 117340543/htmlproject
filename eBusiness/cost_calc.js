@@ -36,5 +36,36 @@ function enablebtnProceed(){
 function disablebtnProceed() {
     $('#btnProceed').prop('disabled', true);
 }
+function calcDisVatTotal(parmSubtotal){
+  var subtotal = argSubtotal;
+  var argVat;
+  var argtotal;
+  var argDiscount;
+  var argtotal;
+  
+  argdiscount = argSubtotal * 0.05
+  argVat = argSubTotal * .1;
+  argtotal = ((argSubtotal - argDiscount) + argVat);
+
+
+display(argSubTotal, argDiscount, argVat, argTotal);
+}
+
+function display(parm1, parm2, parm3, parm4){
+  document.getElementById("subtotal").value = parm1;
+  document.getElementById("discount").value = parm2;
+  document.getElementById("vat").value = parm3;
+  document.getElementById("total").value = parm4;
+  
+  enablebtnProceed()
+  
+  
+  
+  
+  
+}
+
+
+
 
 
