@@ -14,6 +14,19 @@ session_start();
         <script type="text/javascript" src="ebus2_validator.js"></script>
     </head>
     <body>
+        <ul class="navigation">
+<li><a href="../CV/cv_page1.html">Curriculum Vitae</a></li>
+<li><a href="../Interests/Sports.html">Interests</a></li>
+<li><a href="../eBusiness/ebus1.php" >Ebus</a></li>
+<li><a href="../https://github.com/117340543/htmlproject">Github</a></li>
+
+</ul>
+<h1 class="mainheading">The Cloud Shop</h1>
+
+          
+            
+            <br/>
+            <div id="ebuss">
         <h4>Please enter your payment details</h4>
         
         
@@ -33,7 +46,7 @@ session_start();
             // Set session variables
             $_SESSION["total"] = $_POST["total"];
             ?>
-       
+       </div>
     </body>
 
 </html>
