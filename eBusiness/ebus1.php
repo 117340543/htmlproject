@@ -6,10 +6,17 @@
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
-
+        <link rel ="stylesheet" href="mystylesheet.css" type="text/css">
     </head>
     
-    <body>
+    <body
+                <ul class="navigation">
+<li><a href="../CV/cv_page1.html">Curriculum Vitae</a></li>
+<li><a href="../Interests/Sports.html">Interests</a></li>
+<li><a href="../eBusiness/ebusshop.html" >Ebus</a></li>
+<li><a href="../https://github.com/117340543/htmlproject">Github</a></li>
+
+</ul>
         
             <h4>Select a Product</h4>
             
