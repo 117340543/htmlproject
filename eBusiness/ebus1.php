@@ -6,22 +6,24 @@
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
-        <link rel ="stylesheet" href="mystylesheet.css" type="text/css">
+        <link rel ="stylesheet" href="../mystylesheet.css" type="text/css">
     </head>
     
-    <body
-                <ul class="navigation">
+    <body>
+     <ul class="navigation">
 <li><a href="../CV/cv_page1.html">Curriculum Vitae</a></li>
 <li><a href="../Interests/Sports.html">Interests</a></li>
-<li><a href="../eBusiness/ebusshop.html" >Ebus</a></li>
+<li><a href="../eBusiness/ebus1.php" >Ebus</a></li>
 <li><a href="../https://github.com/117340543/htmlproject">Github</a></li>
 
 </ul>
-        
-            <h4>Select a Product</h4>
+<h1 class="mainheading">The Cloud Shop</h1>
+
+          
             
             <br/>
-            
+            <div id="ebuss">
+              <h4>Select a Product</h4>
             <form method="POST" action="ebus2.php">
               
               <label for="salesforce">
@@ -76,7 +78,7 @@
             <br/>
             <button onClick="calcSub()">Calculate Cost</button>
             <a role="button" href="Ebus1.php">Clear Choice</a>
-            
+            </div>
     
     </body>
 </html>
