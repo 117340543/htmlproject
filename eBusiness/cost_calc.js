@@ -20,25 +20,25 @@ function calcSub(){
     
     CalculateRealTotal(argSubTotal);
 }
-function CalculateRealTotal(SubTotal){
-  var subtotal = SubTotal;
+function CalculateRealTotal(SubTotall){
+  var SubTotal = SubTotall
   var discount;
   var VAT;
   var total;
   
   discount = (SubTotal * 0.05);
-  VAT = ((SubTotal - discount) * .1);
+  VAT = ((SubTotal - discount) * 0.1);
   total = ((SubTotal + VAT) - discount);
-  display(discount, VAT, SubTotal, total);
+  display(SubTotal, discount, VAT, total);
 }
 
 
-function display(Sub, Tot, Vat, Dis){
+function display(Sub, Dis, Vat, Tot){
   
-  document.getElementById("SubTotal").value = Sub;
-  document.getElementById("total").value = Tot;
-  document.getElementById("discount").value = Dis;
+  document.getElementById("subtotal").value = Sub;
+  document.getElementById("Discount").value = Dis;
   document.getElementById("VAT").value = Vat;
+  document.getElementById("total").value = Tot;
    
   enablebtnProceed();
 }
