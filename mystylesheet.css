@@ -170,4 +170,176 @@ border-bottom-right-radius: 100px 100px;
 border-top-right-radius: 100px 100px;
 border-bottom-left-radius: 100px 100px;
     text-align:center;
+}body {
+    margin: 0;
+    padding: 0;
+    font-family: 'verdana';
+    background-size:cover;
+    background-color: white;
+}
+
+.navigation {
+background-color: #0066cc;
+color:#ffffff;
+list-style:none;
+text-align:center;
+padding:20px 0 20px;
+font-size: 20px;
+border-style:solid;
+
+
+}
+.navigation > li {
+    display: inline-block;
+    padding: 0 25px 0 
+}
+.navigation > li > a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ .navigation > li > a:hover {
+color: #ff6699;
+}
+
+h1 {
+    font-size: 35px;
+    text-align:center;
+    color: #00000;
+}
+
+.cv {
+  text-align:center;
+  color:black;
+  font-size:22px;
+}
+.mainheading {
+    font-size: 60px;
+color:#00000;
+text-align:center;
+
+}
+
+.content {
+  width:20%;
+  height: 60%;
+ 
+  background-color:white;
+  text-align:center;
+  padding: 30px;
+  color:green;
+}
+#second{
+    background-color:#cceeff;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 80px;
+    width: 50%;
+ border-top-left-radius: 100px 100px;
+border-bottom-right-radius: 100px 100px;
+border-top-right-radius: 100px 100px;
+border-bottom-left-radius: 100px 100px;
+    
+}
+
+#first{
+      background-color: #b3ffb3;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 10px
+    width: 80%;
+     border-top-left-radius: 100px 100px;
+border-bottom-right-radius: 100px 100px;
+border-top-right-radius: 100px 100px;
+border-bottom-left-radius: 100px 100px;
+    
+   
+    
+}
+#footer{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    Color: red;
+    bottom:0;
+    line-height:60px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/106/564/non_2x/vector-seamless-geometric-blue-pattern.jpg");
+}
+
+#cloud{
+   
+    background-color:#b3ffb3;
+    font-size: 30px;
+        margin-left:auto;
+    margin-right:auto;
+    padding: 2px;
+    width: 25%;
+ border-top-left-radius: 100px 100px;
+border-bottom-right-radius: 100px 100px;
+border-top-right-radius: 100px 100px;
+border-bottom-left-radius: 100px 100px;
+    text-align:center;
+}
+#cloudleft{
+    background-color:#cce6ff;
+    margin-left:50%;
+    margin-right:auto;
+    padding: 40px;
+    width: 40  
+ border-top-left-radius: 100px 100px;
+border-bottom-right-radius: 100px 100px;
+border-top-right-radius: 100px 100px;
+border-bottom-left-radius: 100px 100px;
+text-align: center;
+}
+#cloudright{
+ background-color:#cceeff;
+    margin-left:auto;
+    margin-right:50%;
+    padding: 40px;
+    width: 40%;
+ border-top-left-radius: 100px 100px;
+border-bottom-right-radius: 100px 100px;
+border-top-right-radius: 100px 100px;
+border-bottom-left-radius: 100px 100px;
+text-align: center;
+}
+#buttons{
+     background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 5px;
+    width: 5%;
+ border-top-left-radius: 100px 100px;
+border-bottom-right-radius: 100px 100px;
+border-top-right-radius: 100px 100px;
+border-bottom-left-radius: 100px 100px;
+text-align: center;
+}
+.green{
+    background:green;
+    padding: 2%;
+    position: absolute;
+    top: 30%;
+    left: 73%;
+    color: black;
+     border-top-left-radius: 100px 100px;
+border-bottom-right-radius: 100px 100px;
+border-top-right-radius: 100px 100px;
+border-bottom-left-radius: 100px 100px;
+    
+    
+}
+#ebuss{
+    background-color:#b3ffb3;
+    font-size: 20px;
+        margin-left:auto;
+    margin-right:auto;
+    padding: 5px;
+    width: 60%;
+ border-top-left-radius: 100px 100px;
+border-bottom-right-radius: 100px 100px;
+border-top-right-radius: 100px 100px;
+border-bottom-left-radius: 100px 100px;
+    text-align:center;
 }
