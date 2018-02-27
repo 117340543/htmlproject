@@ -5,6 +5,7 @@ session_start();
     <head>
         <title>RECEIPT</title>
          <link rel ="stylesheet" href="../mystylesheet.css" type="text/css">
+         <script type="text/javascript" src="ebus3_validator.js"></script>
     </head>
     <body>
         <ul class="navigation">
@@ -21,12 +22,15 @@ session_start();
             <br/>
             <div id="ebuss">
         <h4>RECEIPT</h4>
-        
+        <form action="ebus3.php" method="POST">
         <?php
         // Echo session vairables that were set on previous page
-        echo "Total is: " . $_SESSION["total"] . ".";
+        echo "Total is: $" . $_SESSION["total"] . ".";
         
         ?>
+     
+            
+    
         
     </body>
 </html>
