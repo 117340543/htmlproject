@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,16 +7,25 @@
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
-  <link rel ="stylesheet" href="../mystylesheet.css" type="text/css">
+ <link rel="stylesheet" href="../mystylesheet.css" type="text/css">
     </head>
     
     <body>
-        
+           <ul class="navigation">
+<li><a href="../CV/cv_page1.html">Curriculum Vitae</a></li>
+<li><a href="../Interests/Sports.html">Interests</a></li>
+<li><a href="../eBusiness/ebusshop.html" >Ebus</a></li>
+<li><a href="../https://github.com/117340543/htmlproject">Github</a></li>
+
+</ul>
+<h1 class="mainheading">The Cloud Shop</h1>
+<div id="ebuss">
+
             <h4>Select a Product</h4>
             
             <br/>
             
-            <form method="POST" action="Ebus2.php">
+            <form method="POST" action="ebus2.php">
               
               <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
@@ -26,11 +36,11 @@
               
               <label for="aws">
                 <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-                Amazon Web Service @ $300
+                AWS @ $300
               </label>
               
               <br/>
-                            <br/>
+        
               
               <label for="gmail">
                 <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
@@ -38,7 +48,7 @@
               </label>
               
               <br/>
-                            <br/>
+              
               
               <label for="cloud9">
                 <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
@@ -46,7 +56,7 @@
               </label>
               
               <br/>
-              <br/>
+       
               
               <label for="subtotal">
                 Sub Total
@@ -68,8 +78,8 @@
             
             <br/>
             <button onClick="calcSub()">Calculate Cost</button>
-            <a role="button" href="Ebus1.php">Clear Choice</a>
-            
+            <a role="button" href="ebus1.php">Clear Choice</a>
+            </div>
     
     </body>
 </html>

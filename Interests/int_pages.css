@@ -13,7 +13,7 @@
 }
 
 #section4{
-background-image: url("http://www.logospike.com/wp-content/uploads/2015/11/Gmail_Logo_Vector_01.png");
+background-image: url("https://tse4.mm.bing.net/th?id=OIP.2hSPy03LdC6jfA6iddMHAgHaHa&pid=15.1&P=0&w=300&h=300");
     height: 100%;
 background-position: center;
 background-repeat: no-repeat;
@@ -35,7 +35,7 @@ position: absolute;
 z-index:1;
 }
 #section6{
-    background-image: url("https://index.tnwcdn.com/images/4e65571efe882c1bbd3243966a91826eb035b345.png");
+    background-image: url("https://www.beewits.com/wp-content/uploads/2015/01/cloud-9-e1421337533908.png");
     height:100%;
 background-position: center;
 background-repeat: no-repeat;
@@ -78,8 +78,8 @@ z-index:1;
     color: black;
    
     padding:2%;
-    top: 50%;
-    left: 45%;
+    top: 48%;
+    left: 47%;
 }
 
 #sectionItaly{
@@ -115,3 +115,62 @@ background-size: cover;
 position: absolute;
 z-index:1;
 }
+#boxgmail{
+   z-index:2;
+   color: black;
+   background-color:white;
+   width: 500px;
+   height: 310px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 3%;
+    border-top-left-radius: 100px 100px;
+border-bottom-right-radius: 100px 100px;
+border-top-right-radius: 100px 100px;
+border-bottom-left-radius: 100px 100px;
+}
+#boxaws{
+   z-index:2;
+   color: black;
+   background-color:#cce6ff;
+   width: 780px;
+   height: 520px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 3%;
+    border-top-left-radius: 100px 100px;
+border-bottom-right-radius: 100px 100px;
+border-top-right-radius: 100px 100px;
+border-bottom-left-radius: 100px 100px;
+}
+
+#boxc9{
+       z-index:2;
+   color: black;
+   background-color: white;
+   width: 530px;
+   height: 400px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 3%;
+    border-top-left-radius: 100px 100px;
+border-bottom-right-radius: 100px 100px;
+border-top-right-radius: 100px 100px;
+border-bottom-left-radius: 100px 100px;
+}
+#boxsale{
+       z-index:2;
+   color: black;
+   background-color: white;
+   width: 500px;
+   height: 360px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 3%;
+    border-top-left-radius: 100px 100px;
+border-bottom-right-radius: 100px 100px;
+border-top-right-radius: 100px 100px;
+border-bottom-left-radius: 100px 100px;
+}
+
+
