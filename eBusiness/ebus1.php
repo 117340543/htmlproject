@@ -15,7 +15,7 @@
 <li><a href="../CV/cv_page1.html">Curriculum Vitae</a></li>
 <li><a href="../Interests/Sports.html">Interests</a></li>
 <li><a href="../eBusiness/ebusshop.html" >Ebus</a></li>
-<li><a href="../https://github.com/117340543/htmlproject">Github</a></li>
+<li><a href="https://github.com/117340543/htmlproject">Github</a></li>
 
 </ul>
 <h1 class="mainheading">The Cloud Shop</h1>
@@ -64,7 +64,18 @@
               </label>
               
               <br/>
-              
+              <label for="Discount">
+                Discount 5%
+                <input type="text" id="Discount" name="Discount" value="0.00" readonly/>
+              </label>
+
+<br>
+<label for="VAT">
+  VAT (10%)
+  <input type="text" id="VAT" name="VAT" value="0.00" readonly/>
+</label>
+<br>
+
               <label for="total">
                 Total
                 <input type="text" id="total"  name="total" value="0.00" readonly/>
