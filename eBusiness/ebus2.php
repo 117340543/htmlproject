@@ -33,16 +33,15 @@ session_start();
         
             <form action="ebus3.php" method="POST">
                     <label for="user_pin">PIN: 
-                    
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
                     </label>
                     <br>
                     <label for="user_name">Name: 
-                    <input type="text" id="user_name" maxlenght="16">
+                    <input type="text" id="user_name" placeholder="Card Name" maxlenght="16">
                     </label>
                     <br>
                     <label for="user_email">Email: 
-                        <input type="text" id="user_email" maxlenght="254">
+                        <input type="text" id="user_email" placeholder="Card Email" maxlenght="254">
                     </label>
                     <br>
                 <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
