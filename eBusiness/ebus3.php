@@ -17,8 +17,6 @@ session_start();
 </ul>
 <h1 class="mainheading">The Cloud Shop</h1>
 
-          
-            
             <br/>
             <div id="ebuss">
         <h4>RECEIPT</h4>
@@ -26,8 +24,8 @@ session_start();
         <?php
         // Echo session vairables that were set on previous page
         echo "Total is: $" . $_SESSION["total"] . ".";
-    echo "Customer Name: " . $_POST["user_name"] . ". <br/>";
-            echo "Customer email address: " . $_POST["user_email"] . ". <br/>";
+ echo "Name is:" . $_SESSION["user_name"];
+ 
         ?>
      
             
