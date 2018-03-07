@@ -41,7 +41,7 @@ session_start();
                     </label>
                     <br>
                     <label for="user_email">Email: 
-                        <input type="text" id="user_email" placeholder="Card Email" maxlenght="254">
+                        <input type="email" id="user_email" placeholder="Card Email" maxlenght="254">
                     </label>
                     <br>
                 <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
