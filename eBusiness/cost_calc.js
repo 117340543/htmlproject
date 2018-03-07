@@ -1,8 +1,9 @@
 
 /* global $ */
 
+
 function calcSub(){
-    
+    //Here is a function utilising If statements to show the price for each different product
     var argSubTotal;
     
     if(document.getElementById('salesforce').checked) {
@@ -18,32 +19,33 @@ function calcSub(){
       argSubTotal = 300;
     }
     
-    CalculateRealTotal(argSubTotal);
-}
-function CalculateRealTotal(SubTotall){
-  var SubTotal = SubTotall
-  var discount;
-  var VAT;
-  var total;
+    CalDisVatTotal(argSubTotal);
+    
+}//here is a function to calculate total cost including discount and tax
+function CalDisVatTotal(ParmSubTotal){
+  var Subtotal = ParmSubTotal;
+  var discountAmt;
+  var VatAmt;
+  var totalPrice;
   
-  discount = (SubTotal * 0.05);
-  VAT = ((SubTotal - discount) * 0.1);
-  total = ((SubTotal + VAT) - discount);
-  display(SubTotal, discount, VAT, total);
+  discountAmt = (ParmSubTotal * 0.05);
+  VatAmt = ((ParmSubTotal - discountAmt) * 0.1);
+  totalPrice = ((ParmSubTotal + VatAmt) - discountAmt);
+  display(ParmSubTotal, discountAmt, VatAmt, totalPrice);
 }
 
-
-function display(Sub, Dis, Vat, Tot){
+//this function displays the values for the discount, vat, subtotal and total
+function display(parm1, parm2, parm3, parm4){
   
-  document.getElementById("subtotal").value = Sub;
-  document.getElementById("Discount").value = Dis;
-  document.getElementById("VAT").value = Vat;
-  document.getElementById("total").value = Tot;
+  document.getElementById("subtotal").value = parm1;
+  document.getElementById("Discount").value = parm2;
+  document.getElementById("VAT").value = parm3;
+  document.getElementById("total").value = parm4;
    
   enablebtnProceed();
 }
 
-
+//this enables the user to proceed to the next ebus page, It will be set to true function display if the requirements are met
 function enablebtnProceed(){
     $('#btnProceed').prop('disabled', false);
 }
