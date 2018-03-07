@@ -37,11 +37,11 @@ session_start();
                     </label>
                     <br>
                     <label for="user_name">Name: 
-                    <input type="text" id="user_name" placeholder="Card Name" maxlenght="16">
+                    <input type="text" id="user_name" name="user_name" placeholder="Card Name" maxlenght="16">
                     </label>
                     <br>
                     <label for="user_email">Email: 
-                        <input type="email" id="user_email" placeholder="Card Email" maxlenght="254">
+                        <input type="email" id="user_email" name="user_email" placeholder="Card Email" maxlenght="254">
                     </label>
                     <br>
                 <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
@@ -59,6 +59,7 @@ session_start();
             
             ?>
        </div>
+       <div id="footer"></div>
     </body>
 
 </html>

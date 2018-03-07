@@ -91,6 +91,6 @@
             <button onClick="calcSub()">Calculate Cost</button>
             <a role="button" href="ebus1.php">Clear Choice</a>
             </div>
-    
+    <div id="footer"></div>
     </body>
 </html>

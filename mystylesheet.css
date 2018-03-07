@@ -343,3 +343,8 @@ border-top-right-radius: 100px 100px;
 border-bottom-left-radius: 100px 100px;
     text-align:center;
 }
+.receipt{
+    text-align: center;
+    font: 40px;
+    color: red;
+}

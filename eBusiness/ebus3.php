@@ -19,7 +19,7 @@ session_start();
 
             <br/>
             <div id="ebuss">
-        <h4>RECEIPT</h4>
+        <h4 class="receipt">RECEIPT</h4>
               <?php
             // set session variables
             $_SESSION["user_name"] = $_POST["user_name"];
@@ -28,25 +28,25 @@ session_start();
         
         <?php
         // Echo session variables that were set on previous page
-        echo "Customer Name: " . $_SESSION["user_name"] . ".";
+        echo "<strong>Customer Name:</strong> " . $_SESSION["user_name"] . ".";
         ?>
         
         <br/>
         
         <?php
-        echo "Customer Email: " . $_SESSION["user_email"] . ".";
+        echo "<strong>Customer Email:</strong> " . $_SESSION["user_email"] . ".";
         ?>
         
         <br/>
         
         <?php
-        echo "Total is $" . $_SESSION["total"] . ".";
+        echo "<strong>Total is $</strong>" . $_SESSION["total"] . ".";
         ?>
         
         <br/>
         
      
-            
+            <div id="footer"></div>
     
         
     </body>
